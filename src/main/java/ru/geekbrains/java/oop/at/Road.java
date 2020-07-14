@@ -1,27 +1,20 @@
 package ru.geekbrains.java.oop.at;
 
-public class Road extends Obstacle {
+public class Road implements Obstacle {
     private int length;
 
-    public Road(String name, int length) {
-        super(name);
+    public Road(int length) {
         this.length = length;
     }
 
-    public int get_length() {
-        return length;
+    public void check(Action action) {
+    action.run();
+    action.setSuccess(action.get_run_distance() >= length);
+    if (action.getSuccess()) {
+        System.out.println("Испытание выполнено. Персонаж пробежал дистанцию длиной: " + length);
+    } else {
+        System.out.println("Испытание провалено. Персонаж не пробежал дистанцию длиной: " + length);
     }
 
-    @Override
-    protected boolean moving(Action action) {
-        System.out.println("Дистанция пробежки: " + this.length);
-    action.run();
-    if(action.get_run_distance() >= get_length()) {
-        System.out.println("Дистанция преодолена");
-        return true;
-    } else {
-        System.out.println("Дистанция не была преодолена");
-        return false;
-    }
     }
 }

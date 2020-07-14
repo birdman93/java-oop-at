@@ -4,6 +4,7 @@ public class Cat implements Action {
     private String name;
     private int jump_height;
     private int run_distance;
+    private boolean success = true;
 
     public Cat(String name, int jump_height, int run_distance) {
         this.name = name;
@@ -29,5 +30,15 @@ public class Cat implements Action {
     @Override
     public int get_run_distance(){
         return this.run_distance;
+    }
+
+    @Override
+    public boolean getSuccess(){
+        return success;
+    }
+
+    @Override
+    public void setSuccess(boolean success){
+        this.success = success;
     }
 }

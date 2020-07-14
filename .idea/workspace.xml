@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08949eba-f3b9-46de-80be-c94d2670626c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-oop-at.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_oop_at.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru_geekbrains_java_oop_at/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/java/oop/at/Wall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.Main" />
+      <module name="java-oop-at" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="java-oop-at" />
       <option name="VM_PARAMETERS" />
@@ -90,6 +101,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,5 +125,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="84" key="#ru_geekbrains_java_oop_at/0.0.1536.824@0.0.1536.824" timestamp="1594719211784" />
+    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1594723878467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594723878467" />
+    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1594723878467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594723878467" />
+    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1594723878467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594723878467" />
+    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1594723878467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594723878467" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1594720276426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594720276426" />
   </component>
 </project>

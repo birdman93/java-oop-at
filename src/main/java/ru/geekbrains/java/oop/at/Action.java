@@ -5,4 +5,6 @@ public interface Action {
     void run();
     int get_jump_height();
     int get_run_distance();
+    boolean getSuccess();
+    void setSuccess(boolean success);
 }

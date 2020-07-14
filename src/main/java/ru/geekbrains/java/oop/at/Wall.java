@@ -1,27 +1,19 @@
 package ru.geekbrains.java.oop.at;
 
-public class Wall extends Obstacle {
+public class Wall implements Obstacle {
     private int height;
 
-    public Wall(String name, int height) {
-        super(name);
+    public Wall(int height) {
         this.height = height;
     }
 
-    public int get_length() {
-        return height;
-    }
-
-    @Override
-    protected boolean moving(Action action) {
-        System.out.println("Высота препятствия: " + this.height);
-        action.run();
-        if(action.get_run_distance() >= get_length()) {
-            System.out.println("Препятсвие преодолено");
-            return true;
+    public void check(Action action) {
+        action.jump();
+        action.setSuccess(action.get_jump_height() >= height);
+        if (action.getSuccess()) {
+            System.out.println("Испытание выполнено. Персонаж подпрыгнул на высоту: " + height);
         } else {
-            System.out.println("Препятсвие не было преодолено");
-            return false;
+            System.out.println("Испытание провалено. Персонаж не подпрыгнул на высоту: " + height);
         }
     }
 }
