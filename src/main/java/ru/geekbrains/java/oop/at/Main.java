@@ -45,7 +45,7 @@ public class Main {
 
 /* Работа с полосой препятствий */
 
-    Obstacle[] obstacle = new Obstacle[6];
+    Obstacle[] obstacle = new Obstacle[4];
 
     int distance = random.nextInt(15);
     obstacle[0] = new Road(distance);
@@ -53,22 +53,15 @@ public class Main {
     distance = random.nextInt(15);
     obstacle[1] = new Road(distance);
 
-    distance = random.nextInt(15);
-    obstacle[2] = new Road(distance);
-
     int height = random.nextInt(7);
-    obstacle[3] = new Road(height);
+    obstacle[2] = new Wall(height);
 
     height = random.nextInt(7);
-    obstacle[4] = new Road(height);
-
-    height = random.nextInt(7);
-    obstacle[5] = new Road(height);
+    obstacle[3] = new Wall(height);
 
     System.out.println("Гонка началась!");
     for (int i = 0; i < obstacle.length; i++) {
         System.out.println("\n\nИспытание " + (i + 1));
-
         for (Action action : actions) {
             if (action.getSuccess()) {
                 System.out.println("------------");
