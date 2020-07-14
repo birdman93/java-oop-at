@@ -9,8 +9,7 @@ public class Wall implements Obstacle {
 
     public void check(Action action) {
         action.jump();
-        action.setSuccess(action.get_jump_height() >= height);
-        if (action.getSuccess()) {
+        if (action.get_jump_height() >= height) {
             System.out.println("Испытание выполнено. Персонаж подпрыгнул на высоту: " + height);
         } else {
             System.out.println("Испытание провалено. Персонаж не подпрыгнул на высоту: " + height);

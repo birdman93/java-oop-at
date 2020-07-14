@@ -59,7 +59,7 @@ public class Main {
     height = random.nextInt(7);
     obstacle[3] = new Wall(height);
 
-    System.out.println("Гонка началась!");
+    System.out.println("Старт состязания.");
     for (int i = 0; i < obstacle.length; i++) {
         System.out.println("\n\nИспытание " + (i + 1));
         for (Action action : actions) {
