@@ -17,9 +17,9 @@ package ru.geekbrains.java.oop.at;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import ru.geekbrains.java.oop.at.base.BaseTest;
+import ru.geekbrains.java.oop.at.base.BaseWebTest;
 
-public class SearchTest extends BaseTest {
+public class SearchWebTest extends BaseWebTest {
 
     @Test
     public void checkSearch() throws InterruptedException {

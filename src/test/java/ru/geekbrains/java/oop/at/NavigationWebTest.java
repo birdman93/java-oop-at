@@ -8,9 +8,9 @@ package ru.geekbrains.java.oop.at;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import ru.geekbrains.java.oop.at.base.BaseTest;
+import ru.geekbrains.java.oop.at.base.BaseWebTest;
 
-public class NavigationTest extends BaseTest {
+public class NavigationWebTest extends BaseWebTest {
 
 /*
 2.1. В хэдере каждой странице есть класс gb-header__title, поэтому добавим првоерку на поиск этого класса.
