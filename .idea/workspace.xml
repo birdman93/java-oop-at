@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08949eba-f3b9-46de-80be-c94d2670626c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/java/oop/at/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/geekbrains/java/oop/at/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +36,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkash\Documents\GitHub\java-oop-at\java-oop-at\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dkash\Documents\GitHub\java-oop-at\java-oop-at\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchTest.checkSearch">
+    <configuration name="NavigationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-oop-at" />
       <extension name="coverage">
         <pattern>
@@ -52,13 +58,83 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.NavigationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTest.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-at" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.NavigationTest" />
+      <option name="METHOD_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTest.topics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-at" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.NavigationTest" />
+      <option name="METHOD_NAME" value="topics" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-at" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.SearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.checkSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-oop-at" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java.oop.at.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.java.oop.at" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java.oop.at.SearchTest" />
+      <option name="METHOD_NAME" value="checkSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SearchTest.checkSearch" />
+        <item itemvalue="JUnit.SearchTest" />
+        <item itemvalue="JUnit.NavigationTest" />
+        <item itemvalue="JUnit.NavigationTest.topics" />
+        <item itemvalue="JUnit.NavigationTest.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -80,42 +156,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594733578372" />
+    <state x="507" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594921434967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="507" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594921434967" />
     <state x="485" y="84" key="#ru_geekbrains_java_oop_at" timestamp="1594719211784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="84" key="#ru_geekbrains_java_oop_at/0.0.1536.824@0.0.1536.824" timestamp="1594719211784" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1594733663688">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1594936063144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594733663688" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1594733663688">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594936063144" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1594936063143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594733663688" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1594733663688">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594936063143" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1594936063143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594733663688" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1594733663688">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594936063143" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1594936063143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594733663688" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1594726206970">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594936063143" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1594936063144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594726206970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1594726206970">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594936063144" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1594936063144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594726206970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1594726206970">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594936063144" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1594936063144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594726206970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1594726206970">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594936063144" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1594936063144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594726206970" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594936063144" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1594720276426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
